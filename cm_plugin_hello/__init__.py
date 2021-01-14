@@ -1,7 +1,4 @@
-from plugin import run
+from plugin import Plugin
 
-routes = [
-    {"rule": "/hello_world", "view_func": run},
-]
+__plugin__ = Plugin
 
-scripts = []
